@@ -14,8 +14,8 @@ function App() {
           <img src="./fire.png"></img>
         </div>
         <div>
-          <button>BUY REKT</button>
-          <button>ADD LIQUIDITY</button>
+          <button><a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=CDCzrKUHpumbbdQyoKZA9d67F7Y1sWfvZnhZSDbVQ97B&fixed=in">BUY REKT</a></button>
+          <button><a href="https://raydium.io/liquidity/add/?coin0=sol&coin1=CDCzrKUHpumbbdQyoKZA9d67F7Y1sWfvZnhZSDbVQ97B&fixed=coin0&ammId=BYVrUSfDxiNVzK4zLGoea9TzcZb4c1Z9d4VsBhEyQa9Z">ADD LIQUIDITY</a></button>
           <button>TOKENOMICS</button>
         </div>
       </div>
