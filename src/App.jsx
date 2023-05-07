@@ -17,6 +17,7 @@ function App() {
           <button><a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=CDCzrKUHpumbbdQyoKZA9d67F7Y1sWfvZnhZSDbVQ97B&fixed=in">BUY REKT</a></button>
           <button><a href="https://raydium.io/liquidity/add/?coin0=sol&coin1=CDCzrKUHpumbbdQyoKZA9d67F7Y1sWfvZnhZSDbVQ97B&fixed=coin0&ammId=BYVrUSfDxiNVzK4zLGoea9TzcZb4c1Z9d4VsBhEyQa9Z">ADD LIQUIDITY</a></button>
           <button><a href="https://birdeye.so/token/CDCzrKUHpumbbdQyoKZA9d67F7Y1sWfvZnhZSDbVQ97B?chain=solana">BIRDEYE</a></button>
+          <button><a href="https://forms.gle/svv9sxh2gMjMqVZx5">AIRDROP</a></button>
           <button>TOKENOMICS</button>
         </div>
       </div>

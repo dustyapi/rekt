@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4em;
   color:white;
   border-color: black!important;
   border-width: 40px;
@@ -36,8 +36,10 @@ h1 {
 }
 
 img{
-  height: 30%;
-  width: 30%;
+  height: 40%;
+  width: 40%;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 
