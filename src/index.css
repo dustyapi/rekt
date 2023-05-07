@@ -30,7 +30,7 @@ body h1 {
   font-weight: 900;
   letter-spacing: -2px;
   text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
-
+  text-align: center;
 }
 body h2{
   font-size: 2em;
@@ -105,12 +105,15 @@ button:active {
   bottom: 0;
 }
 
-.tokenomics-container {
+.aboutus-container {
+    padding: 50px;
   background-color: red;
   border-radius: 40px;
   border: 3px solid white;
-  padding: 10px;
+  font-size: 25px;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px, 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
 
 }
 
@@ -122,7 +125,6 @@ button:active {
 }
 
 .tokenomics h1 {
-  font-size: 40px;
   font-family: inherit;
 }
 
@@ -137,21 +139,15 @@ button:active {
 }
 
 
-.howtocontainer {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Space Grotesk', sans-serif;
-  padding: 50px;
-  background-color: red;
-  border-radius: 40px;
-  border: 3px solid white;
-  font-size: 25px;
-  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px, 0 0 10px 10px rgba(0, 0, 0, 0.2);
-  color: white;
-}
 
 
 @media (min-width: 768px) {
   button {
     padding: 0.25em 0.75em;
+  }
+}
+@media (max-width: 725px) {
+  body h1{
+    font-size: 40px;
   }
 }

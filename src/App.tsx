@@ -10,11 +10,7 @@ function App() {
     <>
       <div>
         <h1>REKT</h1>
-        <h2>
-          Got rugged on a memecoin or NFT trade recently? This is web3...we've
-          all been there. Turn your misfortune in comedy. Join the fun, viral
-          memecoin community by sharing your story, receive $REKT reward tokens.
-        </h2>
+
         <div className="rekt-fire">
           <img src="./fire.png"></img>
         </div>
@@ -38,91 +34,31 @@ function App() {
             <a href="https://forms.gle/svv9sxh2gMjMqVZx5">AIRDROP</a>
           </button>
           {/* <button>TOKENOMICS</button> */}
-              <h1>TOKENOMICS</h1>
-          <section className="tokenomics-container">
-            <div id="tokenomics" className="tokenomics">
+          <section>
+            <h1>ABOUT US</h1>
+            <div className="aboutus-container">
               <p>
-                
-                  <p>50% liquidity</p>
-                  <p>30% Airdrops </p>
-                  <p>5% Marketing</p>
-                  <p>15% Utility Development</p>
+
+              Got rugged on a memecoin or NFT trade recently? This is
+              web3...we've all been there. Turn your misfortune in comedy. Join
+              the fun, viral memecoin community by sharing your story, receive
+              $REKT reward tokens.
+              </p>
+            </div>
+          </section>
+          <h1>TOKENOMICS</h1>
+          <section className="aboutus-container">
+            <div >
+              <p>
+                <p>50% liquidity</p>
+                <p>30% Airdrops </p>
+                <p>5% Marketing</p>
+                <p>15% Utility Development</p>
               </p>
               {/* <img src="./chart.png"></img> */}
             </div>
           </section>
-              <h1>How get REKT</h1>
-          <section className="howtocontainer">
-            <div className="container_start_guide">
-              {/* <img className="arr-star" src="../images/arrr.svg" /> */}
 
-              <div className="steps_n">
-                {/* <img className="qdeu" src="../images/stepone.svg" /> */}
-                <hr className="MuiDivider-root step_divider" />
-                <div>
-                  <h3 className="start_guide_h">
-                    Purchase SOL on a reputable exchange
-                  </h3>
-                  <p>
-                    To start, buy SOL on well-known exchanges such as Binance,
-                    Kraken or Coinbase.
-                  </p>
-                </div>
-              </div>
-
-              <div className="steps_n">
-                {/* <img className="qdeu" src="../images/steptwo.svg" /> */}
-                <hr className="MuiDivider-root step_divider" />
-                <div>
-                  <h3 className="start_guide_h">
-                    Set up a Solana wallet and copy address
-                  </h3>
-                  <p>
-                    Download the Phantom wallet extension for Google Chrome,
-                    Microsoft Edge, Firefox, or the Brave Browser. Link:{" "}
-                    <a href="https://phantom.app">https://phantom.app</a>. Once
-                    you have created your wallet, click on the top where it says
-                    Wallet # as this will copy your wallet address to your
-                    clipboard.
-                  </p>
-                </div>
-              </div>
-
-              <div className="steps_n">
-                {/* <img className="qdeu" src="../images/steptree.svg" /> */}
-                <hr className="MuiDivider-root step_divider" />
-                <div>
-                  <h3 className="start_guide_h">
-                    Send SOL from your Exchange wallet to your Phantom wallet
-                  </h3>
-                  <p>
-                    To begin, identify your SOL within your exchange wallet and
-                    select withdraw. At this point, it should ask you how much
-                    you would like to withdraw along with the receiving address.
-                    This is where you paste your address from the previous step
-                    to complete the withdrawal of funds.
-                  </p>
-                </div>
-              </div>
-
-              <div className="steps_n">
-                {/* <img className="qdeu" src="../images/stepforth.svg" /> */}
-                <hr className="MuiDivider-root step_divider" />
-                <div>
-                  <h3 className="start_guide_h">
-                    Converting USDC TO REKT on Raydium
-                  </h3>
-                  <p>
-                  Now you can easily swap your $USDC for $REKT. Please
-                    remember to leave a small amount of SOL for transaction
-                    fees.
-                  </p>
-                </div>
-              </div>
-
-              {/* <img className="pizza" src="../images/pizza.png" /> */}
-            </div>
-          </section>
           {/* <section>
             <div id="howtobuy" className="howtobuy">
               <h1>How get REKT</h1>
