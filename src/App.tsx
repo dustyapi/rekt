@@ -48,7 +48,7 @@ function App() {
           </section>
           <h2>TOKENOMICS</h2>
           <section className="container">
-            <div >
+            <div className="tokenomics">
               <p>
                 <p>50% liquidity</p>
                 <p>30% Airdrops </p>

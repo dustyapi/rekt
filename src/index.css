@@ -51,6 +51,10 @@ body h2{
 }
 
 
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 
 button {
   cursor: pointer;
@@ -122,25 +126,10 @@ button:active {
 }
 
 .tokenomics {
-  font-family: inherit;
-  color: white;
-  margin-top: 60px;
-  margin: 10px;
-}
-
-.tokenomics h1 {
-  font-family: inherit;
-}
-
-.tokenomics p {
-  font-size: 40px;
-  font-family: 'Space Grotesk', sans-serif;
 
 }
 
-.tokenomics img {
-  max-width: 80%;
-}
+
 
 
 
