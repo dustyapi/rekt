@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>REKT</h1>
+        <h1 >REKT</h1>
 
         <div className="rekt-fire">
           <img src="./fire.png"></img>
@@ -35,8 +35,8 @@ function App() {
           </button>
           {/* <button>TOKENOMICS</button> */}
           <section>
-            <h1>ABOUT US</h1>
-            <div className="aboutus-container">
+            <h2>ABOUT US</h2>
+            <div className="container">
               <p>
 
               Got rugged on a memecoin or NFT trade recently? This is
@@ -46,8 +46,8 @@ function App() {
               </p>
             </div>
           </section>
-          <h1>TOKENOMICS</h1>
-          <section className="aboutus-container">
+          <h2>TOKENOMICS</h2>
+          <section className="container">
             <div >
               <p>
                 <p>50% liquidity</p>

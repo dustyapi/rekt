@@ -22,7 +22,7 @@ body {
 }
 
 body h1 {
-  font-size: 4em;
+  font-size: 6em;
   color: white;
   border-color: black !important;
   border-width: 40px;
@@ -33,11 +33,15 @@ body h1 {
   text-align: center;
 }
 body h2{
-  font-size: 2em;
+  font-size: 4em;
   color: white;
+  border-color: black !important;
   border-width: 40px;
+  -webkit-text-stroke: 2px red;
   font-weight: 900;
-  -webkit-text-stroke: 1px red;
+  letter-spacing: -2px;
+  text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 .rekt-fire img {
   height: 40%;
@@ -105,7 +109,7 @@ button:active {
   bottom: 0;
 }
 
-.aboutus-container {
+.container {
     padding: 50px;
   background-color: red;
   border-radius: 40px;
@@ -148,6 +152,33 @@ button:active {
 }
 @media (max-width: 725px) {
   body h1{
-    font-size: 40px;
+    font-size: 5rem;
+  }
+  body h2{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 513px) {
+  body h1{
+    font-size: 4rem;
+  }
+  body h2{
+    font-size: 2rem;
+  }
+
+}
+@media (max-width: 410px) {
+  button {
+    height: 5rem;
+    width: 12rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 370px) {
+  body h1{
+    font-size: 3rem;
+  }
+  body h2{
+    font-size: 1.8rem;
   }
 }
