@@ -4,13 +4,12 @@ import React from "react";
 import { BsDiscord } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { PieChart } from "react-minimal-pie-chart";
-
+import PreLoader from "./PreLoader";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
+        <PreLoader/>
         <h1>REKT</h1>
 
         <div className="rekt-fire">
@@ -50,20 +49,25 @@ function App() {
           <h2>TOKENOMICS</h2>
           <section className="container">
             <div className="tokenomics">
-          <PieChart className="piechart"
-            data={[
-              { title: "Marketing", value: 5, color: "#FFFF66" },
-              { title: "Airdrops", value: 30, color: "#FFCC00" },
-              { title: "Liquidity", value: 50, color: "#FF9900"},
-              { title: "Utility Development", value: 15, color: " #FF0040" },
-            ]}
-            animate={true}
-            animationDuration={1000}
-            animationEasing={"easeout"}
-            // label={({ dataEntry }) => dataEntry.title}
-            // labelStyle={{fontSize:"3",fill:"white",fontWeight:"bold"}}
-            // labelPosition={60}
-          />
+              <PieChart
+                className="piechart"
+                data={[
+                  { title: "Marketing", value: 5, color: "#FFFF66" },
+                  { title: "Airdrops", value: 30, color: "#FFCC00" },
+                  { title: "Liquidity", value: 50, color: "#FF9900" },
+                  {
+                    title: "Utility Development",
+                    value: 15,
+                    color: " #FF0040",
+                  },
+                ]}
+                animate={true}
+                animationDuration={1000}
+                animationEasing={"easeout"}
+                // label={({ dataEntry }) => dataEntry.title}
+                // labelStyle={{fontSize:"3",fill:"white",fontWeight:"bold"}}
+                // labelPosition={60}
+              />
               <div className="tokenomics-text">
                 <p>50% liquidity</p>
                 <p>30% Airdrops </p>
