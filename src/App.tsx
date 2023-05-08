@@ -3,13 +3,15 @@ import "./App.css";
 import React from "react";
 import { BsDiscord } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { PieChart } from "react-minimal-pie-chart";
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-        <h1 >REKT</h1>
+        <h1>REKT</h1>
 
         <div className="rekt-fire">
           <img src="./fire.png"></img>
@@ -37,28 +39,40 @@ function App() {
           <section>
             <h2>ABOUT US</h2>
             <div className="container">
-              <p>
-
-              Got rugged on a memecoin or NFT trade recently? This is
-              web3...we've all been there. Turn your misfortune in comedy. Join
-              the fun, viral memecoin community by sharing your story, receive
-              $REKT reward tokens.
+              <p style={{ textAlign: "left" }}>
+                Got rugged on a memecoin or NFT trade recently? This is
+                web3...we've all been there. Turn your misfortune in comedy.
+                Join the fun, viral memecoin community by sharing your story,
+                receive $REKT reward tokens.
               </p>
             </div>
           </section>
           <h2>TOKENOMICS</h2>
           <section className="container">
             <div className="tokenomics">
-              <p>
+          <PieChart className="piechart"
+            data={[
+              { title: "Marketing", value: 5, color: "#FFFF66" },
+              { title: "Airdrops", value: 30, color: "#FFCC00" },
+              { title: "Liquidity", value: 50, color: "#FF9900"},
+              { title: "Utility Development", value: 15, color: " #FF0040" },
+            ]}
+            animate={true}
+            animationDuration={1000}
+            animationEasing={"easeout"}
+            // label={({ dataEntry }) => dataEntry.title}
+            // labelStyle={{fontSize:"3",fill:"white",fontWeight:"bold"}}
+            // labelPosition={60}
+          />
+              <div className="tokenomics-text">
                 <p>50% liquidity</p>
                 <p>30% Airdrops </p>
                 <p>5% Marketing</p>
                 <p>15% Utility Development</p>
-              </p>
+              </div>
               {/* <img src="./chart.png"></img> */}
             </div>
           </section>
-
           {/* <section>
             <div id="howtobuy" className="howtobuy">
               <h1>How get REKT</h1>

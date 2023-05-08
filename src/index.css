@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
 :root {}
 
 body {
@@ -32,7 +33,8 @@ body h1 {
   text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-body h2{
+
+body h2 {
   font-size: 4em;
   color: white;
   border-color: black !important;
@@ -43,6 +45,7 @@ body h2{
   text-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+
 .rekt-fire img {
   height: 40%;
   width: 40%;
@@ -51,7 +54,7 @@ body h2{
 }
 
 
-section{
+section {
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -114,7 +117,7 @@ button:active {
 }
 
 .container {
-    padding: 50px;
+  padding: 50px;
   background-color: red;
   border-radius: 40px;
   border: 3px solid white;
@@ -122,15 +125,35 @@ button:active {
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px, 0 0 10px 10px rgba(0, 0, 0, 0.2);
   color: white;
   font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  justify-content: center;
+}
 
+
+.piechart {
+  height: 300px;
+  width: 300px;
 }
 
 .tokenomics {
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
 }
-
-
-
+.tokenomics-text{
+  text-align:left;
+  margin-left:4rem;
+}
+@media (max-width: 771px) {
+  .tokenomics {
+    flex-direction: column;
+  }
+  .tokenomics-text{
+    text-align:center;
+    margin-left:0;
+  }
+}
 
 
 
@@ -139,43 +162,76 @@ button:active {
     padding: 0.25em 0.75em;
   }
 }
+
 @media (max-width: 725px) {
-  body h1{
+  body h1 {
     font-size: 5rem;
   }
-  body h2{
+
+  body h2 {
     font-size: 3rem;
   }
 }
+
 @media (max-width: 513px) {
-  body h1{
+  body h1 {
     font-size: 4rem;
   }
-  body h2{
+
+  body h2 {
     font-size: 2rem;
+  }
+  .piechart {
+    margin-top: 1.5rem;
+    height: 15rem;
+    width: 15rem;
+  }
+  .tokenomics-text{
+    text-align:center;
+    margin-left:0;
   }
 
 }
+
 @media (max-width: 410px) {
   button {
     height: 5rem;
     width: 12rem;
     font-size: 1rem;
   }
-  .container{
+  .piechart {
+    margin-top: 1.5rem;
+    height: 15rem;
+    width: 15rem;
+  }
+  .tokenomics-text{
+    text-align:center;
+    margin-left:0;
+  }
+  .container {
     font-size: 1.2rem;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 3px;
     padding-bottom: 3px;
-    
+
   }
 }
+
 @media (max-width: 370px) {
-  body h1{
+  body h1 {
     font-size: 3rem;
   }
-  body h2{
+  .piechart {
+    margin-top: 1.5rem;
+    height: 10rem;
+    width: 10rem;
+  }
+  .tokenomics-text{
+    text-align:center;
+    margin-left:0;
+  }
+  body h2 {
     font-size: 1.8rem;
   }
 }
