@@ -1,8 +1,8 @@
 .preloader {
+
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: 100%;
-    background-color: rgb(158, 0, 0);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -13,4 +13,9 @@
     justify-content: center;
     color: white;
     overflow: hidden !important;
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
